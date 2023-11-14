@@ -1,4 +1,4 @@
-## Unreal Engine Shared  DDC with Fsx for OpenZFS
+## Boosting Unreal Engine Performance with AWS FSxZ as a Shared Derived Data Cache
 
 The Derived Data Cache (DDC) in Unreal Engine serves as a storage mechanism for data that is computationally expensive to generate.DDC stores processed derived asset data such as shader compilations, texture compressions, and geometry conversions in a way that can be quickly accessed by the engine during load times. This is especially important for larger teams and projects, as it reduces the need to recompile assets constantly, thus saving a lot of time and computational resource. DDC can be local to a single user or shared across a team via a network to improve the efficiency of the development pipeline. Setting up a cloud-based shared Derived Data Cache (DDC) can offer scalability and high availability for your Unreal Engine projects. By leveraging AWS storage services, you can easily share and access cached data from anywhere. In this post, we are going to focus on shred DDC with AWS Fsx for Open ZFS.
 
